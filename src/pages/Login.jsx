@@ -34,6 +34,7 @@ function Login({ setToken, setRole }) {
           <Form.Control
             type="text"
             placeholder="user"
+            title="type : user"
             ref={userRef}
           />
         </Form.Group>
@@ -44,6 +45,7 @@ function Login({ setToken, setRole }) {
             type="password"
             placeholder="pass"
             ref={passRef}
+            title="type : pass"
           />
         </Form.Group>
 
